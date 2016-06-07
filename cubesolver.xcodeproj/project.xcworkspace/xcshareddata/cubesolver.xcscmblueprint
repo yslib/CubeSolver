@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5ECA30E87A31DDB55A8BFE4C32811F360AD07D2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D2279C7AFB517D5C31A9968927B0B2203DEA216" : 0,
+    "5ECA30E87A31DDB55A8BFE4C32811F360AD07D2B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3D736338-30E2-4BA0-AC47-1132CF87FA6D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D2279C7AFB517D5C31A9968927B0B2203DEA216" : "..\/QT\/cubesolver",
+    "5ECA30E87A31DDB55A8BFE4C32811F360AD07D2B" : "CubeSolver\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "cubesolver",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "cubesolver.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/yslib\/CubeSolver",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D2279C7AFB517D5C31A9968927B0B2203DEA216"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/yslib\/CubeSolver",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5ECA30E87A31DDB55A8BFE4C32811F360AD07D2B"
+    }
+  ]
+}

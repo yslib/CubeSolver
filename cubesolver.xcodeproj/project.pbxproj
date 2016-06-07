@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		16F9A174065DF6092FF23DFF /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "cubesolver" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0260A5AE84EC2F77EC547D29 /* video.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F1EBEEF2A8BFDD2A3A4CF412 /* video.cpp */; settings = {ATTRIBUTES = (); }; };
+		067D68AAA17DA18716B2B727 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = ECB24B4A85FB19856D83D1C0 /* QtWidgets.framework */; };
+		0C6B141319017E3905870955 /* opencv_video in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = AEBD8FC60A11DC456B0BD274 /* opencv_video */; };
+		1CD009BAE6B42F4D85B25D81 /* cube3d.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5470E4DBE4698D276730C1BA /* cube3d.cpp */; settings = {ATTRIBUTES = (); }; };
+		2408949A2ECE97C4E0358A97 /* CubeSolver.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5579A8887431876E650625EC /* CubeSolver.cpp */; settings = {ATTRIBUTES = (); }; };
+		27EB3E5BEB306CBF0B6EFA70 /* opencv_imgproc in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 0A35011D482E6D9089E763E8 /* opencv_imgproc */; };
+		3866491971935AF295CBB179 /* moc_SplashScreen.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6ABB7C8D5553A4D752191530 /* moc_SplashScreen.cpp */; settings = {ATTRIBUTES = (); }; };
+		433F93FC13EBF2E9C49EB123 /* moc_video.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4BADD33F3A40B41C668E9D4F /* moc_video.cpp */; settings = {ATTRIBUTES = (); }; };
+		4430C28E16298EF702C4D9A0 /* SplashScreen.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1037458FABE0462D7A74612A /* SplashScreen.cpp */; settings = {ATTRIBUTES = (); }; };
+		48A078370DAF7CADDB64D54D /* opencv_core in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 20CD8DC58640914DFBA73AEF /* opencv_core */; };
+		4B7C21B1359ADB5FD72B4438 /* opencv_videoio in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = CB101DF2FEB93B0B46094067 /* opencv_videoio */; };
+		6085015E7F62730E7BD26AD9 /* QtSerialPort.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2410D93C96C378F17E3C3D3D /* QtSerialPort.framework */; };
+		641EB20233FE5ADFFF915132 /* moc_window.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EEB2FB3B9B522822C2F4C11D /* moc_window.cpp */; settings = {ATTRIBUTES = (); }; };
+		6A3C3B806C08C5F29DD36277 /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = ED4F3CEC321CD3D76732C07C /* QtGui.framework */; };
+		719ADFD6747A2D1C5B23AD4F /* QtNetwork.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 0DD7DF04F9EFF11EED472322 /* QtNetwork.framework */; };
+		839EFE6ED9AA3F5E9C75BC6D /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8198B2B64F2417167C1F42AE /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		9232DA0D7D1814017437A363 /* opencv_highgui in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 56537984D5553E0283ECDF43 /* opencv_highgui */; };
+		A89AE998499A834C9A48EA4A /* moc_cube2d.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A17E5AD8AB3DDC0E87B49BDD /* moc_cube2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		B20A4F05F506DB63F4F25ECE /* window.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B49381A7ADA14CF41AF0B243 /* window.cpp */; settings = {ATTRIBUTES = (); }; };
+		B6B9D36789E9682B0A7A5D1C /* opencv_legacy in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5A8F9AD4DEB786EDEF9EE537 /* opencv_legacy */; };
+		C051585DD8486B89E99124E8 /* getcolor.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9D5D14491D58758E64228E91 /* getcolor.cpp */; settings = {ATTRIBUTES = (); }; };
+		D8DD2F2251A3D4B2162188B8 /* QtMultimediaWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 972C057DE33FB68AFE882DAA /* QtMultimediaWidgets.framework */; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		F0A9F27ED2CEED3241A0F29B /* opencv_videostab in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6C6CAEC0EA81CAAFFD89AC2C /* opencv_videostab */; };
+		F0E8BACE159F49296F004C28 /* QtMultimedia.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FCAC056C0A00C24778F82ED2 /* QtMultimedia.framework */; };
+		F1098D7D84827792E35EF1DE /* cube2d.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 457FDF96AD387DEC28090800 /* cube2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		F34CCBA27B61C8614DF503ED /* moc_cube3d.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A7600EB874254F65E1EC60CE /* moc_cube3d.cpp */; settings = {ATTRIBUTES = (); }; };
+		F5A152B5E935B8263B0E6583 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = CFD40CC1BCE881893C68C6B2 /* QtCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		764DC6671CF7D55B0080FB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F9A174065DF6092FF23DFF;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B6D919C30EF1CC802B25AD /* cubesolver.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = cubesolver.pro; path = /Users/Ysl/Documents/QT/cubesolver/cubesolver.pro; sourceTree = "<absolute>"; };
+		062865BDD679E575F0BDC8A7 /* all.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = all.h; path = /Users/Ysl/Documents/QT/cubesolver/all.h; sourceTree = "<absolute>"; };
+		0A35011D482E6D9089E763E8 /* opencv_imgproc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = opencv_imgproc; path = /usr/local/lib/libopencv_imgproc.dylib; sourceTree = "<absolute>"; };
+		0DD7DF04F9EFF11EED472322 /* QtNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtNetwork.framework; path = /Users/Ysl/Qt5.5.1/5.5/clang_64/lib/QtNetwork.framework; sourceTree = "<absolute>"; };
+		1037458FABE0462D7A74612A /* SplashScreen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SplashScreen.cpp; path = /Users/Ysl/Documents/QT/cubesolver/SplashScreen.cpp; sourceTree = "<absolute>"; };
+		1D315B169541F54D0E615E35 /* cubesolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cubesolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CD8DC58640914DFBA73AEF /* opencv_core */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = opencv_core; path = /usr/local/lib/libopencv_core.dylib; sourceTree = "<absolute>"; };
+		2410D93C96C378F17E3C3D3D /* QtSerialPort.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtSerialPort.framework; path = /Users/Ysl/Qt5.5.1/5.5/clang_64/lib/QtSerialPort.framework; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		3A6C81B476320CBF064BA361 /* video.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = video.h; path = /Users/Ysl/Documents/QT/cubesolver/video.h; sourceTree = "<absolute>"; };
+		457FDF96AD387DEC28090800 /* cube2d.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = cube2d.cpp; path = /Users/Ysl/Documents/QT/cubesolver/cube2d.cpp; sourceTree = "<absolute>"; };
+		4BADD33F3A40B41C668E9D4F /* moc_video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_video.cpp; path = /Users/Ysl/Documents/QT/cubesolver/moc_video.cpp; sourceTree = "<absolute>"; };
+		5470E4DBE4698D276730C1BA /* cube3d.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = cube3d.cpp; path = /Users/Ysl/Documents/QT/cubesolver/cube3d.cpp; sourceTree = "<absolute>"; };
+		5579A8887431876E650625EC /* CubeSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CubeSolver.cpp; path = /Users/Ysl/Documents/QT/cubesolver/CubeSolver.cpp; sourceTree = "<absolute>"; };
+		56537984D5553E0283ECDF43 /* opencv_highgui */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = opencv_highgui; path = /usr/local/lib/libopencv_highgui.dylib; sourceTree = "<absolute>"; };
+		5A8F9AD4DEB786EDEF9EE537 /* opencv_legacy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = opencv_legacy; path = /usr/local/lib/libopencv_legacy.dylib; sourceTree = "<absolute>"; };
+		6ABB7C8D5553A4D752191530 /* moc_SplashScreen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SplashScreen.cpp; path = /Users/Ysl/Documents/QT/cubesolver/moc_SplashScreen.cpp; sourceTree = "<absolute>"; };
+		6C6CAEC0EA81CAAFFD89AC2C /* opencv_videostab */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = opencv_videostab; path = /usr/local/lib/libopencv_videostab.dylib; sourceTree = "<absolute>"; };
+		8198B2B64F2417167C1F42AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/Ysl/Documents/QT/cubesolver/main.cpp; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		93EDB5214EAA1A20D0F7A651 /* CubeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CubeSolver.h; path = /Users/Ysl/Documents/QT/cubesolver/CubeSolver.h; sourceTree = "<absolute>"; };
+		972C057DE33FB68AFE882DAA /* QtMultimediaWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtMultimediaWidgets.framework; path = /Users/Ysl/Qt5.5.1/5.5/clang_64/lib/QtMultimediaWidgets.framework; sourceTree = "<absolute>"; };
+		9B7A67855C07767620465E94 /* cube2d.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = cube2d.h; path = /Users/Ysl/Documents/QT/cubesolver/cube2d.h; sourceTree = "<absolute>"; };
+		9D5D14491D58758E64228E91 /* getcolor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = getcolor.cpp; path = /Users/Ysl/Documents/QT/cubesolver/getcolor.cpp; sourceTree = "<absolute>"; };
+		A17E5AD8AB3DDC0E87B49BDD /* moc_cube2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_cube2d.cpp; path = /Users/Ysl/Documents/QT/cubesolver/moc_cube2d.cpp; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A7600EB874254F65E1EC60CE /* moc_cube3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_cube3d.cpp; path = /Users/Ysl/Documents/QT/cubesolver/moc_cube3d.cpp; sourceTree = "<absolute>"; };
+		AEBD8FC60A11DC456B0BD274 /* opencv_video */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = opencv_video; path = /usr/local/lib/libopencv_video.dylib; sourceTree = "<absolute>"; };
+		B49381A7ADA14CF41AF0B243 /* window.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = window.cpp; path = /Users/Ysl/Documents/QT/cubesolver/window.cpp; sourceTree = "<absolute>"; };
+		BE46BD21F492812B5E6C207F /* SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SplashScreen.h; path = /Users/Ysl/Documents/QT/cubesolver/SplashScreen.h; sourceTree = "<absolute>"; };
+		CB101DF2FEB93B0B46094067 /* opencv_videoio */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = opencv_videoio; path = /usr/local/lib/libopencv_videoio.dylib; sourceTree = "<absolute>"; };
+		CFD40CC1BCE881893C68C6B2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/Ysl/Qt5.5.1/5.5/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		D636724A29BC80D05CE1F144 /* getcolor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = getcolor.h; path = /Users/Ysl/Documents/QT/cubesolver/getcolor.h; sourceTree = "<absolute>"; };
+		E40927681E6F3EACEBCE3622 /* common.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = common.h; path = /Users/Ysl/Documents/QT/cubesolver/common.h; sourceTree = "<absolute>"; };
+		ECB24B4A85FB19856D83D1C0 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/Ysl/Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		ED4F3CEC321CD3D76732C07C /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/Ysl/Qt5.5.1/5.5/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		EEB2FB3B9B522822C2F4C11D /* moc_window.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_window.cpp; path = /Users/Ysl/Documents/QT/cubesolver/moc_window.cpp; sourceTree = "<absolute>"; };
+		F1EBEEF2A8BFDD2A3A4CF412 /* video.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = video.cpp; path = /Users/Ysl/Documents/QT/cubesolver/video.cpp; sourceTree = "<absolute>"; };
+		F9C49A13885FD72B11752218 /* window.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = window.h; path = /Users/Ysl/Documents/QT/cubesolver/window.h; sourceTree = "<absolute>"; };
+		FBCF3C22A52FC29188F077E5 /* cube3d.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = cube3d.h; path = /Users/Ysl/Documents/QT/cubesolver/cube3d.h; sourceTree = "<absolute>"; };
+		FCAC056C0A00C24778F82ED2 /* QtMultimedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtMultimedia.framework; path = /Users/Ysl/Qt5.5.1/5.5/clang_64/lib/QtMultimedia.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6B141319017E3905870955 /* opencv_video in Link Binary With Libraries */,
+				48A078370DAF7CADDB64D54D /* opencv_core in Link Binary With Libraries */,
+				9232DA0D7D1814017437A363 /* opencv_highgui in Link Binary With Libraries */,
+				F0A9F27ED2CEED3241A0F29B /* opencv_videostab in Link Binary With Libraries */,
+				27EB3E5BEB306CBF0B6EFA70 /* opencv_imgproc in Link Binary With Libraries */,
+				B6B9D36789E9682B0A7A5D1C /* opencv_legacy in Link Binary With Libraries */,
+				4B7C21B1359ADB5FD72B4438 /* opencv_videoio in Link Binary With Libraries */,
+				D8DD2F2251A3D4B2162188B8 /* QtMultimediaWidgets.framework in Link Binary With Libraries */,
+				F0E8BACE159F49296F004C28 /* QtMultimedia.framework in Link Binary With Libraries */,
+				719ADFD6747A2D1C5B23AD4F /* QtNetwork.framework in Link Binary With Libraries */,
+				F5A152B5E935B8263B0E6583 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				6A3C3B806C08C5F29DD36277 /* QtGui.framework in Link Binary With Libraries */,
+				067D68AAA17DA18716B2B727 /* QtWidgets.framework in Link Binary With Libraries */,
+				6085015E7F62730E7BD26AD9 /* QtSerialPort.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A17E5AD8AB3DDC0E87B49BDD /* moc_cube2d.cpp */,
+				A7600EB874254F65E1EC60CE /* moc_cube3d.cpp */,
+				6ABB7C8D5553A4D752191530 /* moc_SplashScreen.cpp */,
+				4BADD33F3A40B41C668E9D4F /* moc_video.cpp */,
+				EEB2FB3B9B522822C2F4C11D /* moc_window.cpp */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8198B2B64F2417167C1F42AE /* main.cpp */,
+				457FDF96AD387DEC28090800 /* cube2d.cpp */,
+				5470E4DBE4698D276730C1BA /* cube3d.cpp */,
+				5579A8887431876E650625EC /* CubeSolver.cpp */,
+				9D5D14491D58758E64228E91 /* getcolor.cpp */,
+				1037458FABE0462D7A74612A /* SplashScreen.cpp */,
+				F1EBEEF2A8BFDD2A3A4CF412 /* video.cpp */,
+				B49381A7ADA14CF41AF0B243 /* window.cpp */,
+				062865BDD679E575F0BDC8A7 /* all.h */,
+				E40927681E6F3EACEBCE3622 /* common.h */,
+				9B7A67855C07767620465E94 /* cube2d.h */,
+				FBCF3C22A52FC29188F077E5 /* cube3d.h */,
+				93EDB5214EAA1A20D0F7A651 /* CubeSolver.h */,
+				D636724A29BC80D05CE1F144 /* getcolor.h */,
+				BE46BD21F492812B5E6C207F /* SplashScreen.h */,
+				3A6C81B476320CBF064BA361 /* video.h */,
+				F9C49A13885FD72B11752218 /* window.h */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B6D919C30EF1CC802B25AD /* cubesolver.pro */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD8FC60A11DC456B0BD274 /* opencv_video */,
+				20CD8DC58640914DFBA73AEF /* opencv_core */,
+				56537984D5553E0283ECDF43 /* opencv_highgui */,
+				6C6CAEC0EA81CAAFFD89AC2C /* opencv_videostab */,
+				0A35011D482E6D9089E763E8 /* opencv_imgproc */,
+				5A8F9AD4DEB786EDEF9EE537 /* opencv_legacy */,
+				CB101DF2FEB93B0B46094067 /* opencv_videoio */,
+				972C057DE33FB68AFE882DAA /* QtMultimediaWidgets.framework */,
+				FCAC056C0A00C24778F82ED2 /* QtMultimedia.framework */,
+				0DD7DF04F9EFF11EED472322 /* QtNetwork.framework */,
+				CFD40CC1BCE881893C68C6B2 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				ED4F3CEC321CD3D76732C07C /* QtGui.framework */,
+				ECB24B4A85FB19856D83D1C0 /* QtWidgets.framework */,
+				2410D93C96C378F17E3C3D3D /* QtSerialPort.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* cubesolver */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = cubesolver;
+			sourceTree = "<Group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D315B169541F54D0E615E35 /* cubesolver.app */,
+			);
+			name = Products;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC966A7118F752337E135DF1 /* cubesolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "cubesolver" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				129E3CB944AE786DDC0869CD /* PBXTargetDependency */,
+			);
+			name = cubesolver;
+			productName = cubesolver;
+			productReference = 1D315B169541F54D0E615E35 /* cubesolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "cubesolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* cubesolver */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC966A7118F752337E135DF1 /* cubesolver */,
+				16F9A174065DF6092FF23DFF /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Ysl/Documents/QT/cubesolver/ -f cubesolver.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Ysl/Documents/QT/cubesolver/ -f cubesolver.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839EFE6ED9AA3F5E9C75BC6D /* main.cpp in Compile Sources */,
+				F1098D7D84827792E35EF1DE /* cube2d.cpp in Compile Sources */,
+				1CD009BAE6B42F4D85B25D81 /* cube3d.cpp in Compile Sources */,
+				2408949A2ECE97C4E0358A97 /* CubeSolver.cpp in Compile Sources */,
+				C051585DD8486B89E99124E8 /* getcolor.cpp in Compile Sources */,
+				4430C28E16298EF702C4D9A0 /* SplashScreen.cpp in Compile Sources */,
+				0260A5AE84EC2F77EC547D29 /* video.cpp in Compile Sources */,
+				B20A4F05F506DB63F4F25ECE /* window.cpp in Compile Sources */,
+				A89AE998499A834C9A48EA4A /* moc_cube2d.cpp in Compile Sources */,
+				F34CCBA27B61C8614DF503ED /* moc_cube3d.cpp in Compile Sources */,
+				3866491971935AF295CBB179 /* moc_SplashScreen.cpp in Compile Sources */,
+				433F93FC13EBF2E9C49EB123 /* moc_video.cpp in Compile Sources */,
+				641EB20233FE5ADFFF915132 /* moc_window.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		129E3CB944AE786DDC0869CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F9A174065DF6092FF23DFF /* Qt Preprocess */;
+			targetProxy = 764DC6671CF7D55B0080FB12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Ysl/Qt5.5.1/5.5/clang_64/lib,
+					/Users/Ysl/Qt5.5.1/5.5/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/usr/local/include/opencv,
+					/usr/local/include,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtMultimediaWidgets.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtMultimedia.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtGui.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtNetwork.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtSerialPort.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"../../../Qt5.5.1/5.5/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/Ysl/Qt5.5.1/5.5/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SERIALPORT_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SERIALPORT_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,/Users/Ysl/Qt5.5.1/5.5/clang_64/lib",
+					"-F/Users/Ysl/Qt5.5.1/5.5/clang_64/lib",
+					"-L/usr/local/lib",
+				);
+				PRODUCT_NAME = cubesolver;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = /Users/Ysl/Documents/QT/cubesolver/;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Ysl/Qt5.5.1/5.5/clang_64/lib,
+					/Users/Ysl/Qt5.5.1/5.5/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/usr/local/include/opencv,
+					/usr/local/include,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtMultimediaWidgets.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtMultimedia.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtGui.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtNetwork.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtSerialPort.framework/Headers,
+					../../../Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"../../../Qt5.5.1/5.5/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/Ysl/Qt5.5.1/5.5/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SERIALPORT_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SERIALPORT_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,/Users/Ysl/Qt5.5.1/5.5/clang_64/lib",
+					"-F/Users/Ysl/Qt5.5.1/5.5/clang_64/lib",
+					"-L/usr/local/lib",
+				);
+				PRODUCT_NAME = cubesolver;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+				SYMROOT = /Users/Ysl/Documents/QT/cubesolver/;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = cubesolver;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = cubesolver;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "cubesolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "cubesolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}
